@@ -1,8 +1,5 @@
 language: objective-c
 
-notifications:
-email: true
-
 script:
 - xcodebuild build -project MJPopupViewControllerDemo/MJPopupViewControllerDemo.xcodeproj
 
