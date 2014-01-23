@@ -8,3 +8,6 @@ recipients:
 - tullerVal@gmail.com
 on_success: always
 on_failure: always
+
+notifications:
+email: true
