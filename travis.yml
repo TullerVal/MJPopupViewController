@@ -2,6 +2,3 @@ language: objective-c
 script:
 - xcodebuild build -project MJPopupViewControllerDemo/MJPopupViewControllerDemo.xcodeproj
 
-notifications:
-on_success: always
-on_failure: always
