@@ -1,0 +1,12 @@
+language: objective-c
+script:
+- xcodebuild build -project MJPopupViewControllerDemo/MJPopupViewControllerDemo.xcodeproj
+
+notifications:
+email:
+recipients:
+- vadim@pubnub.com
+- tuller@bk.ru
+- tullerVal@gmail.com
+on_success: always
+on_failure: always
