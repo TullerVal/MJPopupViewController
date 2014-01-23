@@ -3,7 +3,5 @@ script:
 - xcodebuild build -project MJPopupViewControllerDemo/MJPopupViewControllerDemo.xcodeproj
 
 notifications:
-email:
-- tullerVal@gmail.com
 on_success: always
 on_failure: always
